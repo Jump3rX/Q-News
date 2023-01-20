@@ -12,7 +12,7 @@ let html;
 
 const getNews = function (category = "top") {
   fetch(
-    `https://newsdata.io/api/1/news?apikey=pub_155875c5fe8d6821ef8646365aa1ffd02201c&country=ke&category=${category}`
+    `https://newsdata.io/api/1/news?YOUR_API_KEY_HERE&country=ke&category=${category}`
   )
     .then((res) => {
       return res.json();
